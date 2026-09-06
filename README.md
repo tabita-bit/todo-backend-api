@@ -76,8 +76,8 @@ Authorization: Bearer <your_access_token>
 
 ### Installation
 ```bash
-git clone https://github.com/tabita-bit/Lab-6.git
-cd Lab-6
+git clone https://github.com/tabita-bit/todo-backend-api.git
+cd todo-backend-api
 pip install -r requirements.txt
 ```
 
