@@ -13,7 +13,7 @@ A backend API built with FastAPI where authenticated users can create and view t
 - [Author](#author)
 
 ## Overview
-This project builds on a JWT authentication backend to add a todo list feature scoped to each logged-in user. Users register and log in to receive a JWT access token, then pass that token in the `Authorization` header to create and fetch their own todos, other users' todos are never visible. Database schema (users and todos tables, with a foreign key relationship) is versioned with Alembic. It was built as part of coursework to practice authenticated APIs, relational models, and protecting routes with tokens.
+This project builds on a JWT authentication backend to add a todo list feature scoped to each logged-in user. Users register and log in to receive a JWT access token, then pass that token in the `Authorization` header to create and fetch their own todos. Other users' todos are never visible. Database schema (users and todos tables, with a foreign key relationship) is versioned with Alembic. It was built as part of coursework to practice authenticated APIs, relational models, and protecting routes with tokens.
 
 ## Features
 - User registration and login (JWT access tokens)
@@ -45,7 +45,7 @@ todo-backend-api/
 │   ├── script.py.mako
 │   └── README
 ├── .gitignore
-├── README.md         
+├── README.md        
 ├── alembic.ini        # Alembic configuration
 ├── auth.py            # Password hashing, JWT creation/verification, auth logic
 ├── database.py        # SQLAlchemy engine & session setup
